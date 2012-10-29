@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<PreferenceCategory android:title="Fichier de préférences">
+<EditTextPreference
+
+android:key="adress_ip"
+
+android:title="adresse Ip du Serveur"
+android:defaultValue="nothing"
+android:summary="Entrez votre adresse ip">
+
+</EditTextPreference>
+<EditTextPreference
+
+android:key="distanceami"
+
+android:title="Choisir la distance "
+android:defaultValue="5000"
+
+
+android:summary="Entre la distance en mètres">
+
+</EditTextPreference>
+<EditTextPreference
+
+android:key="authentificate"
+android:title="mail d'authentification "
+android:defaultValue="nothing"
+android:summary="s'authentifier">
+</EditTextPreference>
+<EditTextPreference
+
+android:key="login"
+
+android:title="login"
+android:defaultValue="nothing"
+
+
+android:summary="Entre votre login">
+
+</EditTextPreference>
+<EditTextPreference
+
+android:key="password"
+android:title="password gmail"
+android:defaultValue="password"
+android:password="true"
+android:summary="Entre votre password">
+</EditTextPreference>
+<EditTextPreference
+
+android:key="terminusbus1"
+android:title="terminusbus1 "
+android:defaultValue="villejuif"
+android:summary="terminus 1">
+</EditTextPreference>
+<EditTextPreference
+
+android:key="terminusbus2"
+android:title="terminusbus2"
+android:defaultValue="bibliothéque françois.M"
+android:summary="terminus 2">
+</EditTextPreference>
+<EditTextPreference
+
+android:key="terminusbus3"
+android:title="terminusbus3 "
+android:defaultValue="terminusbus3"
+android:summary="terminusbus3">
+</EditTextPreference>
+<EditTextPreference
+
+android:key="bssid1"
+android:title="bss reseau 1"
+android:defaultValue="e0:46:9a:bc:f2:8e"
+android:summary="bss1">
+</EditTextPreference>
+<EditTextPreference
+
+android:key="bssid2"
+android:title="bss reseau 2"
+android:defaultValue="e0:46:9a:bc:f1:02"
+android:summary="bss2">
+</EditTextPreference>
+<EditTextPreference
+
+android:key="idstationbus1"
+android:title="id station bus 1 "
+android:defaultValue="293_925_1003"
+android:summary="id1">
+</EditTextPreference>
+<EditTextPreference
+
+android:key="idstationbus2"
+android:title="id station bus 2 "
+android:defaultValue="132_581_591"
+android:summary="id2">
+</EditTextPreference>
+<EditTextPreference
+
+android:key="numligne1"
+android:title="numero de ligne 1"
+android:defaultValue="293"
+android:summary="numero de ligne 1">
+</EditTextPreference>
+<EditTextPreference
+
+android:key="numligne2"
+android:title="numero de ligne 2 "
+android:defaultValue="132"
+android:summary="numéro de ligne2">
+</EditTextPreference>
+<EditTextPreference
+
+android:key="numligne3"
+android:title=" numero de ligne 3"
+android:defaultValue="0000"
+android:summary="numéro de ligne3">
+</EditTextPreference>
+<EditTextPreference
+
+android:key="direction"
+android:title=" direction A ou R"
+android:defaultValue="R"
+android:summary="A ou R">
+</EditTextPreference>
+
+
+<ListPreference/>
+<Preference
+  android:title="Enregistrez vos préférences :)"
+  android:summary="Clickez"
+  android:key="customPref" 
+  android:layout_width="fill_parent"
+  android:textAppearance="@style/Titreservice"
+  
+  />
+
+</PreferenceCategory>
+</PreferenceScreen>

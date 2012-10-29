@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/zoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="394dp"
+        android:layout_above="@+id/imageButtonconf"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:apiKey="0wy-auNMVfLgkf6-DpSfOuVRLoEJypoL9vqat9w"
+        android:clickable="true"
+        android:enabled="true" >
+
+    </com.google.android.maps.MapView>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mapView"
+        android:layout_alignParentLeft="true"
+        android:text="Amis" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mapView"
+        android:layout_alignParentRight="true"
+        android:text="Objets" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mapView"
+        android:layout_centerHorizontal="true"
+        android:text="Services" />
+
+    <ImageButton
+        android:id="@+id/imageButtonratp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageButtonconf"
+        android:src="@drawable/icone_ratp3" />
+
+    <ImageButton
+        android:id="@+id/imageButtonconf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/icone_conf2" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSOS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignTop="@+id/imageButtonconf"
+        android:src="@drawable/icon" />
+
+</RelativeLayout>
